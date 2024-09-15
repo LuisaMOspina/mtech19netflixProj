@@ -3,14 +3,19 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdn.tailwindcss.com/3.4.5">
         <title>Netflix</title>
-        <link rel="stylesheet" href="style.css">
+        <!--<link rel="stylesheet" href="style.css">-->
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.4/dist/tailwind.min.css" rel="stylesheet">
     </head>
-    <body>
-        <header>
-            <div id="lang" class="inline-block">English</div>
-            <div id="signIn" class="inline-block">Sign In</div>
+    <body class="bg-cover bg-no-repeat" style="background-image:url(images/netflixBackground.jpg);">
+        <header class="w-full flex justify-between my-2">
+            <div class="w-24 text-4xl text-red-600 font-bold inline-block ml-5">NETFLIX</div>
+            <div class="text-white inline-block">
+                <div class="inline-block bg-transparent border-2 py-1 px-7 ">
+                    <a href="#" class="">English</a>
+                </div>
+                <div class="inline-block bg-red-600 rounded py-2 px-3 mx-5"><a href="#" class="">Sign In</a></div>
+            </div>
         </header>
     </body>
 </html>
