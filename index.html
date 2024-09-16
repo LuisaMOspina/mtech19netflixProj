@@ -16,14 +16,20 @@
             </div>
         </header>
 
-        <div class="w-full bg-black p-10">
+        <div class="w-full p-10 mt-56">
             <div class="text-white text-center font-bold ">
-                <h1 class="text-4xl">Unlimited movies, TV shows, and more.</h1>
-                <h4 class="">Watch anywhere. Cancel anytime.</h4>
+                <h1 class="text-5xl">Unlimited movies, TV shows, and more.</h1>
                 <br>
-                <h4>Ready to watch? Enter your email to create or restart your membership.</h4>
+                <h4 class="text-3xl">Watch anywhere. Cancel anytime.</h4>
+                <br>
+                <h4 class="text-3xl">Ready to watch? Enter your email to create or restart your membership.</h4>
+                <br>
+                <form>
+                    <input type="email" id="email" name="email" value="Email Address" 
+                    required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="p-3 text-black w-96 rounded">
+                    <input type="submit" value="Get Started" class="bg-red-600 p-3.5 -ml-3 rounded">
+                </form>
             </div>
-            <div></div>
         </div>
     </body>
 </html>
